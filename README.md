@@ -1,2 +1,4 @@
-fsu-release
-===========
+FSU
+===
+
+Freemium System Utilities

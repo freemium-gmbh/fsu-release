@@ -5,21 +5,16 @@ using System.Linq;
 using System.Threading;
 using System.Windows;
 using System.Windows.Threading;
-using RegistryCleaner.Implementation;
 using RegistryCleaner.Models;
 using RegistryCleaner.Properties;
 using RegistryCleanerCore;
 using System.Windows.Media.Imaging;
 
+/// <summary>
+/// The <see cref="RegistryCleaner"/> namespace defines a Registry Cleaner knot
+/// </summary>
 namespace RegistryCleaner
 {
-    /// <summary>
-    /// The <see cref="RegistryCleaner"/> namespace defines a Registry Cleaner knot
-    /// </summary>
-
-    [System.Runtime.CompilerServices.CompilerGenerated]
-    class NamespaceDoc { }
-
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -240,6 +235,10 @@ namespace RegistryCleaner
             _sLabel = label;
         }
 
+        void RegScan_KeyCount()
+        {
+        }
+
         void RegScan_MatchItem(cLightning.ROOT_KEY root, string key, string value, string data, RESULT_TYPE id)
         {
             _iResultsCounter += 1;
@@ -248,6 +247,10 @@ namespace RegistryCleaner
         void RegScan_ProcessChange()
         {
             _iSegmentCounter += 1;
+        }
+
+        void RegScan_ProcessCompleted(object sender, RunWorkerCompletedEventArgs e)
+        {
         }
 
         void RegScan_ScanComplete()
@@ -260,6 +263,9 @@ namespace RegistryCleaner
             _iProgressMax = count;
         }
 
+        void RegScan_StatusChange(string label)
+        {
+        }
 
         void RegScan_SubScanComplete(string id)
         {
@@ -405,12 +411,15 @@ namespace RegistryCleaner
             _RegScan = new cRegScan { Culture = Properties.Resources.Culture };
 
             _RegScan.CurrentPath += RegScan_CurrentPath;
+            _RegScan.KeyCount += RegScan_KeyCount;
             _RegScan.LabelChange += RegScan_LabelChange;
             _RegScan.MatchItem += RegScan_MatchItem;
             _RegScan.ProcessChange += RegScan_ProcessChange;
+            _RegScan.ProcessCompleted += RegScan_ProcessCompleted;
             _RegScan.ScanComplete += RegScan_ScanComplete;
             _RegScan.SubScanComplete += RegScan_SubScanComplete;
             _RegScan.ScanCount += RegScan_ScanCount;
+            _RegScan.StatusChange += RegScan_StatusChange;
             // text updates
             _aUpdateTimer = new DispatcherTimer { Interval = new TimeSpan(1000), IsEnabled = false };
             _aUpdateTimer.Tick += _aUpdateTimer_Tick;
