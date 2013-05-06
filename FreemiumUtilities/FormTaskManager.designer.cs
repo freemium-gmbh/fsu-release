@@ -790,13 +790,13 @@ namespace FreemiumUtilities
                     scheduleLabel = WPFLocalizeExtensionHelpers.GetUIString("RunAt") + " " +
                                     timePicker.Value.ToString(WPFLocalizeExtensionHelpers.GetUIString("TimeFormat"), System.Globalization.DateTimeFormatInfo.InvariantInfo) + GetWeeklyStatus() + " " +
                                     WPFLocalizeExtensionHelpers.GetUIString("RunEvery") + " " +
-                                    nudWeeks.Value + " " + (nudWeeks.Value > 1 ? WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeeks") : WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeek"));
+                                    (nudWeeks.Value > 1 ? nudWeeks.Value + " " + WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeeks") : WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeek"));
 
                     var o = new
                                 {
                                     time = timePicker.Value.ToString(WPFLocalizeExtensionHelpers.GetUIString("TimeFormat"), System.Globalization.DateTimeFormatInfo.InvariantInfo),
                                     day = GetWeeklyStatus(),
-                                    week = nudWeeks.Value + " " + (nudWeeks.Value > 1 ? WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeeks") : WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeek"))
+                                    week = (nudWeeks.Value > 1 ? nudWeeks.Value + " " + WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeeks") : WPFLocalizeExtensionHelpers.GetUIString("RunEveryWeek"))
                                 };
                     scheduleLabel = WPFLocalizeExtensionHelpers.GetUIString("ScheduleWeeklyText").Inject(o);
                 }
