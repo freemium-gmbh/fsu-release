@@ -159,7 +159,7 @@ namespace FreemiumUtil
                     {
                         writer.WriteLine("[Freemiun Config File]");
                         writer.WriteLine("Version=1.4");
-                        writer.WriteLine("Lang=" + CultureInfo.CurrentCulture.ToString());
+                        writer.WriteLine("Lang=" + CultureInfo.CurrentUICulture.Name.Split('-')[0]);
                         writer.WriteLine("FirstRun=1");
                         writer.WriteLine("Theme=Blue");
                         writer.WriteLine("MinimizeToTray=0");
