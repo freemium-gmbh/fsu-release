@@ -1,5 +1,5 @@
 <SmartAssemblyProject ProjectId="{4071fb6a-4bd0-47ea-bb88-e02f775aa106}" Version="2.0">
-    <MainAssemblyFileName>.\FreemiumUtilities\bin\Release\SystemInfo.exe</MainAssemblyFileName>
+    <MainAssemblyFileName>.\FreemiumUtilities\bin\Release\SysInfo.exe</MainAssemblyFileName>
     <Configuration Name="Release">
         <Options>
             <ExceptionReporting Template="res:{SmartExceptions}.1033.dll" />
@@ -12,9 +12,9 @@
             <Debugging />
         </Options>
         <ApplicationName />
-        <Destination DestinationFileName=".\obfuscated\SystemInfo.exe" />
+        <Destination DestinationFileName=".\obfuscated\SysInfo.exe" />
         <Assemblies>
-            <Assembly AssemblyName="SystemInfo, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="SysInfo, Culture=neutral, PublicKeyToken=null">
                 <Merging>
                     <ResourcesCompression />
                     <MemberRefsProxy />
@@ -154,13 +154,13 @@
                     </Obfuscation>
                 </Merging>
             </Assembly>
-            <Assembly AssemblyName="SystemInfo.resources, Culture=de, PublicKeyToken=null">
+            <Assembly AssemblyName="SysInfo.resources, Culture=de, PublicKeyToken=null">
                 <Merging>
                     <Pruning />
                     <Obfuscation />
                 </Merging>
             </Assembly>
-            <Assembly AssemblyName="SystemInfo.resources, Culture=en, PublicKeyToken=null">
+            <Assembly AssemblyName="SysInfo.resources, Culture=en, PublicKeyToken=null">
                 <Merging>
                     <Pruning />
                     <Obfuscation />

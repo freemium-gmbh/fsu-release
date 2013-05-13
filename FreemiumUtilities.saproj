@@ -71,7 +71,7 @@
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="FreemiumUtilities.ShortcutFixer, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Applications\FreemiumUtilities.ShortcutFixer.dll">
+            <Assembly AssemblyName="FreemiumUtilities.ShortcutsFixer, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Applications\FreemiumUtilities.ShortcutsFixer.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
