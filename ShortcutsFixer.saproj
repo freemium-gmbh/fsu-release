@@ -12,7 +12,7 @@
             <Debugging />
         </Options>
         <ApplicationName />
-        <Destination DestinationFileName=".\obfuscated\ShortcutFixer.exe" />
+        <Destination DestinationFileName=".\obfuscated\ShortcutsFixer.exe" />
         <Assemblies>
             <Assembly AssemblyName="shortcut, Culture=neutral, PublicKeyToken=null">
                 <Embedding />
