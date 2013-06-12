@@ -1,6 +1,7 @@
 ﻿using System.Resources;
 using System.Globalization;
 using System.Threading;
+using TracksEraser.Properties;
 
 namespace FreemiumUtilities.TracksEraser
 {
@@ -345,7 +346,7 @@ namespace FreemiumUtilities.TracksEraser
             // pcbScanning
             // 
             this.pcbScanning.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pcbScanning.Image = TracksEraser.Properties.Resources.scanning;
+            this.pcbScanning.Image = Resources.scanning;
             this.pcbScanning.InitialImage = null;
             this.pcbScanning.Location = new System.Drawing.Point(0, 0);
             this.pcbScanning.Margin = new System.Windows.Forms.Padding(2);

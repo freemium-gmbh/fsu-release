@@ -117,7 +117,7 @@
             // lblHelp
             // 
             this.lblHelp.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblHelp.Image = global::FreemiumUtilities.TracksEraser.Properties.Resources.help_off;
+            this.lblHelp.Image = global::TracksEraser.Properties.Resources.help_off;
             this.lblHelp.Location = new System.Drawing.Point(524, 15);
             this.lblHelp.Margin = new System.Windows.Forms.Padding(0);
             this.lblHelp.MaximumSize = new System.Drawing.Size(27, 24);
@@ -132,7 +132,7 @@
             // 
             this.lblIcon.AutoSize = true;
             this.lblIcon.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.lblIcon.Image = global::FreemiumUtilities.TracksEraser.Properties.Resources.icon_tracks_eraser;
+            this.lblIcon.Image = global::TracksEraser.Properties.Resources.icon_tracks_eraser;
             this.lblIcon.Location = new System.Drawing.Point(2, 5);
             this.lblIcon.Margin = new System.Windows.Forms.Padding(2, 5, 0, 0);
             this.lblIcon.Name = "lblIcon";

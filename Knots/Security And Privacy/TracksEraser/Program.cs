@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Threading;
 using System.Windows.Forms;
 using FreemiumUtil;
-using FreemiumUtilities.TracksEraser.Properties;
 using System.IO;
 using System.Reflection;
+using TracksEraser.Properties;
 
 /// <summary>
 /// The <see cref="FreemiumUtilities.TracksEraser"/> namespace defines a Tracks Eraser knot

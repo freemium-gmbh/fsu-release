@@ -165,8 +165,8 @@ namespace FreemiumUtilities.ShortcutFixer
 
                 try
                 {
-                    WshShellClass wshShellClass = new WshShellClass();
-                    IWshShortcut shortcutInfo = (IWshShortcut)wshShellClass.CreateShortcut(shortcut.FullName);
+                    var wshShellClass = new IWshRuntimeLibrary.WshShell();
+                    var shortcutInfo = (IWshShortcut)wshShellClass.CreateShortcut(shortcut.FullName);
                     string linkTarget = shortcutInfo.TargetPath;
                     string linkfile = linkTarget;
                     if (linkTarget.Contains("\\"))

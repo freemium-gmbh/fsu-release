@@ -2,7 +2,7 @@
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
-using FreemiumUtilities.TracksEraser.Properties;
+using TracksEraser.Properties;
 
 namespace FreemiumUtilities.TracksEraser
 {

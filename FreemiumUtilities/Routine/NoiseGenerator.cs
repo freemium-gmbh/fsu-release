@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Collections.Specialized;
 using System.Linq;
-using System.Tuples;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -124,12 +123,12 @@ namespace FreemiumUtilities
             int value = rnd.Next(0, totalFrequency);
             for (int i = 0; i < frequencyMap.Count - 2; i++)
             {
-                if (frequencyMap[i].Element1 < value && frequencyMap[i + 1].Element1 >= value)
+                if (frequencyMap[i].Item1 < value && frequencyMap[i + 1].Item1 >= value)
                 {
-                    return frequencyMap[i].Element2;
+                    return frequencyMap[i].Item2;
                 }
             }
-            return frequencyMap.Last().Element2;
+            return frequencyMap.Last().Item2;
         }
 
         List<Tuple<int, Color>> GetFrequencyMap()

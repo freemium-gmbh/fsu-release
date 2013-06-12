@@ -68,9 +68,12 @@ namespace FreemiumUtilities.RegCleaner
             }
             else
             {
-                MessageBox.Show(Resources.SelectAtLeastOneItem,
-                                Resources.InvalidSelection,
-                                MessageBoxButton.OK, MessageBoxImage.Exclamation);
+                var text = Resources.SelectAtLeastOneItem;
+                var caption = Resources.InvalidSelection;
+                MessageBox.Show(text,
+                                caption,
+                                MessageBoxButton.OK, 
+                                MessageBoxImage.Exclamation);
             }
         }
 

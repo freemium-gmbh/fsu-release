@@ -21,6 +21,7 @@ using DiskAnalysis.Properties;
 using System.Threading;
 using System.Globalization;
 using FreemiumUtil;
+using DataGridRow = Microsoft.Windows.Controls.DataGridRow;
 
 namespace DiskAnalysis
 {
