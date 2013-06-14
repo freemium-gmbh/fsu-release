@@ -71,19 +71,20 @@ namespace FreemiumUtilities
                 Environment.Exit(1);
             }
 
-            if (!IsNET35SP1Installed())
-            {
-                MessageBoxResult result = MessageBox.Show(
-                    WPFLocalizeExtensionHelpers.GetUIString("CheckNETVersion"),
-                    WPFLocalizeExtensionHelpers.GetUIString("CheckNETVersionTitle"),
-                    MessageBoxButton.OKCancel,
-                    MessageBoxImage.Error);
-                if (result == MessageBoxResult.OK)
-                {
-                    Process.Start(new ProcessStartInfo("http://www.microsoft.com/download/en/details.aspx?id=22"));
-                }
-                Environment.Exit(0);
-            }
+            // If have an ass in your hole you should discomment follow comment block:
+            //if (!IsNET35SP1Installed())
+            //{
+            //    MessageBoxResult result = MessageBox.Show(
+            //        WPFLocalizeExtensionHelpers.GetUIString("CheckNETVersion"),
+            //        WPFLocalizeExtensionHelpers.GetUIString("CheckNETVersionTitle"),
+            //        MessageBoxButton.OKCancel,
+            //        MessageBoxImage.Error);
+            //    if (result == MessageBoxResult.OK)
+            //    {
+            //        Process.Start(new ProcessStartInfo("http://www.microsoft.com/download/en/details.aspx?id=22"));
+            //    }
+            //    Environment.Exit(0);
+            //}
 
             mutex = new Mutex(true, Process.GetCurrentProcess().ProcessName, out created);
             if (!created)
