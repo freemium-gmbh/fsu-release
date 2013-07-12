@@ -117,15 +117,6 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Analyse with System Utilities.
-        /// </summary>
-        internal static string AnalyzeWithFreemiumTools {
-            get {
-                return ResourceManager.GetString("AnalyzeWithFreemiumTools", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Analyzing....
         /// </summary>
         internal static string Analyzing {
@@ -396,7 +387,7 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to You need to install .NET Framework v3.5 SP1 in order to run PC Cleaner.
+        ///   Looks up a localized string similar to You need to install .NET Framework v3.5 SP1 in order to run Free Computer Cleaner.
         ///Press &quot;OK&quot; to go to the .NET Framework v3.5 SP1 download page..
         /// </summary>
         internal static string CheckNETVersion {
@@ -816,15 +807,6 @@ namespace PCCleaner.Properties {
         internal static string Day {
             get {
                 return ResourceManager.GetString("Day", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Decrypt with System Utilities.
-        /// </summary>
-        internal static string DecryptWithFreemiumTools {
-            get {
-                return ResourceManager.GetString("DecryptWithFreemiumTools", resourceCulture);
             }
         }
         
@@ -1300,7 +1282,7 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Find Empty Folders with System Utilities.
+        ///   Looks up a localized string similar to Find Empty Folders with Free Computer Cleaner.
         /// </summary>
         internal static string FindEmptyFolders {
             get {
@@ -1561,7 +1543,7 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://freemium.com/company/faq/.
+        ///   Looks up a localized string similar to http://freemium.com/free-computer-cleaner/faq/.
         /// </summary>
         internal static string HelpUrl {
             get {
@@ -2535,7 +2517,7 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://freemium.com/fsu/.
+        ///   Looks up a localized string similar to http://freemium.com/free-computer-cleaner/.
         /// </summary>
         internal static string RootUrl {
             get {
