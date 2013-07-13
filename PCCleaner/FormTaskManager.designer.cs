@@ -383,6 +383,7 @@ namespace PCCleaner
             this.pcbLogo.Location = new System.Drawing.Point(15, 6);
             this.pcbLogo.Name = "pcbLogo";
             this.pcbLogo.Size = new System.Drawing.Size(43, 44);
+            this.pcbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcbLogo.TabIndex = 0;
             this.pcbLogo.TabStop = false;
             // 
