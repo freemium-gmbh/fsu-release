@@ -180,6 +180,9 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://fr.freemium.com/company/faq/</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://fr.freemium.com/free-computer-cleaner/faq/</value>
+  </data>
   <data name="ignore" xml:space="preserve">
     <value>Ignorer</value>
   </data>

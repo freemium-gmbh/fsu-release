@@ -379,7 +379,10 @@
     <value>Die Datei EULA.pdf konnte nicht gefunden werden</value>
   </data>
   <data name="HelpUrl" xml:space="preserve">
-    <value>http://freemium.com/public/downloads/de/pdf/HandbuchFreemiumSystemUtilitiesDeutsch.pdf</value>
+    <value>http://de.freemium.com/company/faq/</value>
+  </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://de.freemium.com/free-computer-cleaner/faq/</value>
   </data>
   <data name="holiday_dow" xml:space="preserve">
     <value>TDJ ist größer als 6</value>

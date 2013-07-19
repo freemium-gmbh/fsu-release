@@ -156,6 +156,9 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://pt.freemium.com/company/faq/</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://pt.freemium.com/free-computer-cleaner/faq/</value>
+  </data>
   <data name="HistoryScanTitle" xml:space="preserve">
     <value>Menu Iniciar e Histórico</value>
   </data>

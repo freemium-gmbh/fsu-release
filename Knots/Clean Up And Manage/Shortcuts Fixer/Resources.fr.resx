@@ -231,4 +231,7 @@
   <data name="target" xml:space="preserve">
     <value>Destination</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://fr.freemium.com/free-computer-cleaner/faq/</value>
+  </data>
 </root>

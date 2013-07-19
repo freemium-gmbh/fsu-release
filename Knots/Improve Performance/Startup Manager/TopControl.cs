@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using System.Resources;
 using FreemiumUtil;
+using System.IO;
 
 namespace StartupManager
 {
@@ -58,7 +59,10 @@ namespace StartupManager
             try
             {
                 ResourceManager resourceManager = new ResourceManager("StartupManager.Resources", typeof(TopControl).Assembly);
-                CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
+                if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
+                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl_PCCleaner"));
+                else
+                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
             }
             catch (Exception)
             { }

@@ -381,6 +381,9 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://pt.freemium.com/company/faq/</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://es.freemium.com/free-computer-cleaner/faq/</value>
+  </data>
   <data name="holiday_dow" xml:space="preserve">
     <value>Día de la semana superior a 6</value>
   </data>

@@ -4,6 +4,7 @@ using System.Windows.Forms;
 using ShortcutsFixer.Properties;
 using System.Resources;
 using FreemiumUtil;
+using System.IO;
 
 namespace ShortcutsFixer
 {
@@ -59,7 +60,10 @@ namespace ShortcutsFixer
             try
             {
                 ResourceManager resourceManager = new ResourceManager("ShortcutsFixer.Resources", typeof(TopControl).Assembly);
-                CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
+                if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
+                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl_PCCleaner"));
+                else
+                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
             }
             catch (Exception)
             { }

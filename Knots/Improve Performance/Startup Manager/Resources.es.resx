@@ -210,6 +210,9 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://es.freemium.com/company/faq/</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://es.freemium.com/free-computer-cleaner/faq/</value>
+  </data>
   <data name="HKCU" xml:space="preserve">
     <value>Registro: Usuario actual</value>
   </data>

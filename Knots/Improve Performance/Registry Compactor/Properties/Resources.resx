@@ -202,6 +202,9 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://freemium.com/company/faq/</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://freemium.com/free-computer-cleaner/faq/</value>
+  </data>
   <data name="HiveListError" xml:space="preserve">
     <value>Unable to open hive list... this can be a problem!</value>
   </data>

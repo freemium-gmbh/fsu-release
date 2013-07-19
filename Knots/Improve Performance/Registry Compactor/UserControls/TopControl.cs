@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using RegistryCompactor.Properties;
 using FreemiumUtil;
+using System.IO;
 
 namespace RegistryCompactor
 {
@@ -54,7 +55,10 @@ namespace RegistryCompactor
         {
             try
             {
-                CommonOperations.OpenUrl(Resources.HelpUrl);
+                if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
+                    CommonOperations.OpenUrl(Resources.HelpUrl_PCCleaner);
+                else
+                    CommonOperations.OpenUrl(Resources.HelpUrl);
             }
             catch (Exception)
             { }

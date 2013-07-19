@@ -4,6 +4,7 @@ using System.Resources;
 using System.Windows.Forms;
 using Disk_Cleaner.Properties;
 using FreemiumUtil;
+using System.IO;
 
 namespace Disk_Cleaner
 {
@@ -54,7 +55,10 @@ namespace Disk_Cleaner
             try
             {
                 ResourceManager resourceManager = new ResourceManager("Disk_Cleaner.Resources", typeof(FormPreferences).Assembly);
-                CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
+                if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
+                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl_PCCleaner"));
+                else
+                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
             }
             catch (Exception)
             { }

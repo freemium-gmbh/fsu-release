@@ -229,6 +229,9 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://freemium.com/company/faq/</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://freemium.com/free-computer-cleaner/faq/</value>
+  </data>
   <data name="FolderCannotBeOpenedMessage" xml:space="preserve">
     <value>The selected folder cannot be opened! Maybe it exists no longer.</value>
   </data>

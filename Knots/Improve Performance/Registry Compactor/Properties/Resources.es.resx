@@ -180,6 +180,9 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://es.freemium.com/company/faq/</value>
   </data>
+  <data name="HelpUrl_PCCleaner" xml:space="preserve">
+    <value>http://es.freemium.com/free-computer-cleaner/faq/</value>
+  </data>
   <data name="HiveListError" xml:space="preserve">
     <value>No se puede abrir la lista del subárbol... ¡esto puede ser un problema!</value>
   </data>
