@@ -1,5 +1,5 @@
-<SmartAssemblyProject ProjectId="{d5a103fc-d4f3-4c06-bd50-ddfa9532da10}" Version="2.0">
-    <MainAssemblyFileName>.\FreemiumUtilities\bin\Release\ShortcutsFixer.exe</MainAssemblyFileName>
+<SmartAssemblyProject ProjectId="{fe13f7ec-84f2-4637-a76d-368195605532}" Version="2.0">
+    <MainAssemblyFileName>.\PCCleaner\bin\PCCleanerRelease\RegistryCleaner.exe</MainAssemblyFileName>
     <Configuration Name="Release">
         <Options>
             <ExceptionReporting Template="res:{SmartExceptions}.1033.dll" />
@@ -12,16 +12,26 @@
             <Debugging />
         </Options>
         <ApplicationName />
-        <Destination DestinationFileName=".\obfuscated\ShortcutFixer.exe" />
+        <Destination DestinationFileName=".\obfuscated\RegistryCleaner.exe" />
         <Assemblies>
-            <Assembly AssemblyName="shortcut, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="RegistryCleaner, Culture=neutral, PublicKeyToken=null">
                 <Embedding />
                 <Merging>
                     <ResourcesCompression />
                     <MemberRefsProxy />
-                    <Pruning />
-                    <Obfuscation Obfuscate="1">
+                    <Pruning>
                         <Exclusion />
+                    </Pruning>
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion>
+                            <Token Table="WholeType">
+                                <Assembly>RegistryCleaner</Assembly>
+                                <Module>RegistryCleaner.exe</Module>
+                                <ItemType>Enum</ItemType>
+                                <Namespace>RegistryCleaner.Models</Namespace>
+                                <Name>OperationStatus</Name>
+                            </Token>
+                        </Exclusion>
                     </Obfuscation>
                     <ControlFlow Obfuscate="1" ObfuscationLevel="4" />
                 </Merging>
@@ -30,15 +40,11 @@
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="Interop.IWshRuntimeLibrary, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\Interop.IWshRuntimeLibrary.dll">
+            <Assembly AssemblyName="VTRegScan, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\VTRegScan.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="Interop.Shell32, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\Interop.Shell32.dll">
-                <Merging />
-                <Embedding />
-            </Assembly>
-            <Assembly AssemblyName="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <Assembly AssemblyName="PresentationFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
                 <Merging />
             </Assembly>
             <Assembly AssemblyName="mscorlib, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -47,10 +53,37 @@
             <Assembly AssemblyName="System, Culture=neutral, PublicKeyToken=b77a5c561934e089">
                 <Merging />
             </Assembly>
+            <Assembly AssemblyName="WindowsBase, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Xml, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="PresentationCore, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="UIAutomationProvider, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
             <Assembly AssemblyName="System.Drawing, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                 <Merging />
             </Assembly>
-            <Assembly AssemblyName="System.Security, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+            <Assembly AssemblyName="System.Deployment, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="PresentationUI, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Printing, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="ReachFramework, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="UIAutomationTypes, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Data, Culture=neutral, PublicKeyToken=b77a5c561934e089">
                 <Merging />
             </Assembly>
             <Assembly AssemblyName="Accessibility, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -59,31 +92,31 @@
             <Assembly AssemblyName="System.Configuration, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                 <Merging />
             </Assembly>
-            <Assembly AssemblyName="System.Xml, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-                <Merging />
-            </Assembly>
-            <Assembly AssemblyName="System.Runtime.Serialization.Formatters.Soap, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-                <Merging />
-            </Assembly>
-            <Assembly AssemblyName="System.Deployment, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+            <Assembly AssemblyName="System.Security, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                 <Merging />
             </Assembly>
             <Assembly AssemblyName="System.Data.SqlXml, Culture=neutral, PublicKeyToken=b77a5c561934e089">
                 <Merging />
             </Assembly>
-            <Assembly AssemblyName="System.Data, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+            <Assembly AssemblyName="Microsoft.VisualC, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                 <Merging />
             </Assembly>
-            <Assembly AssemblyName="Microsoft.VisualC, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+            <Assembly AssemblyName="PresentationCFFRasterizer, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.Runtime.Serialization.Formatters.Soap, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+                <Merging />
+            </Assembly>
+            <Assembly AssemblyName="System.DirectoryServices, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                 <Merging />
             </Assembly>
             <Assembly AssemblyName="System.Transactions, Culture=neutral, PublicKeyToken=b77a5c561934e089">
                 <Merging />
             </Assembly>
             <Assembly AssemblyName="System.EnterpriseServices, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-                <Merging />
-            </Assembly>
-            <Assembly AssemblyName="System.DirectoryServices, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                 <Merging />
             </Assembly>
             <Assembly AssemblyName="System.Runtime.Remoting, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -137,9 +170,6 @@
             <Assembly AssemblyName="Microsoft.Transactions.Bridge, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
                 <Merging />
             </Assembly>
-            <Assembly AssemblyName="System.Data.DataSetExtensions, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-                <Merging />
-            </Assembly>
             <Assembly AssemblyName="System.Core, Culture=neutral, PublicKeyToken=b77a5c561934e089">
                 <Merging />
             </Assembly>
@@ -156,26 +186,14 @@
                     </Obfuscation>
                 </Merging>
             </Assembly>
-            <Assembly AssemblyName="shortcut.resources, Culture=de, PublicKeyToken=null">
+            <Assembly AssemblyName="RegistryCleaner.resources, Culture=de, PublicKeyToken=null">
                 <Merging>
                     <Pruning />
                     <Obfuscation />
                 </Merging>
             </Assembly>
-            <Assembly AssemblyName="shortcut.resources, Culture=en, PublicKeyToken=null">
-                <Merging>
-                    <Pruning />
-                    <Obfuscation />
-                </Merging>
-            </Assembly>
-            <Assembly AssemblyName="ShortcutsFixer, Culture=neutral, PublicKeyToken=null">
-                <Merging>
-                    <ResourcesCompression />
-                    <MemberRefsProxy />
-                    <Pruning />
-                    <Obfuscation />
-                    <ControlFlow />
-                </Merging>
+            <Assembly AssemblyName="RegistryCleanerCore, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\RegistryCleanerCore.dll">
+                <Merging />
                 <Embedding />
             </Assembly>
         </Assemblies>
