@@ -12,7 +12,7 @@
             <Debugging />
         </Options>
         <ApplicationName />
-        <Destination DestinationFileName=".\obfuscated\FreemiumUtilities.exe" />
+        <Destination DestinationFileName=".\obfuscated\PCCleaner.exe" />
         <Assemblies>
             <Assembly AssemblyName="FreemiumUtilities, Culture=neutral, PublicKeyToken=null">
                 <Embedding />
@@ -269,8 +269,10 @@
                     <ResourcesCompression />
                     <MemberRefsProxy />
                     <Pruning />
-                    <Obfuscation />
-                    <ControlFlow />
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion />
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="4" />
                 </Merging>
             </Assembly>
             <Assembly AssemblyName="System.Management, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
