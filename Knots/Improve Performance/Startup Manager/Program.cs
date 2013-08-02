@@ -26,10 +26,7 @@ namespace StartupManager
 			mutex = new Mutex(true, Process.GetCurrentProcess().ProcessName, out created);
 			if (created)
 			{
-				//Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
-				//Application.ThreadException += Application_ThreadException;
-				//AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
-
+				
                 // As all first run initialization is done in the main project,
                 // we need to make sure the user does not start a different knot first.
                 if (CfgFile.Get("FirstRun") != "0")
@@ -55,14 +52,6 @@ namespace StartupManager
 			}
 		}
 
-		static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
-		{
-			Process.GetCurrentProcess().Kill();
-		}
-
-		static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
-		{
-			Process.GetCurrentProcess().Kill();
-		}
+		
 	}
 }

@@ -21,7 +21,6 @@ namespace RegistryCleaner
 
         void Application_Startup(object sender, StartupEventArgs e)
         {
-            //AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
             mutex = new Mutex(true, Process.GetCurrentProcess().ProcessName, out created);
             if (!created)
             {
@@ -82,15 +81,6 @@ namespace RegistryCleaner
             return isAdmin;
         }
 
-        void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
-        {
-            Process.GetCurrentProcess().Kill();
-        }
-
-        void Application_DispatcherUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e)
-        {
-            e.Handled = true;
-            Process.GetCurrentProcess().Kill();
-        }
+    
     }
 }

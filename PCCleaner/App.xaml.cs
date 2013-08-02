@@ -39,8 +39,7 @@ namespace PCCleaner
         {
             //Reducing the frames per second on the WPF animations update
             //Report Unhandled Exceptions to bug reporter
-            AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
-
+        
             Timeline.DesiredFrameRateProperty.OverrideMetadata(
                 typeof(Timeline),
                 new FrameworkPropertyMetadata { DefaultValue = 10 }
@@ -166,17 +165,7 @@ namespace PCCleaner
             }
         }
 
-        void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
-        {
-            Process.GetCurrentProcess().Kill();
-        }
-
-        void Application_DispatcherUnhandledException(object sender, DispatcherUnhandledExceptionEventArgs e)
-        {
-            e.Handled = true;
-            Process.GetCurrentProcess().Kill();
-        }
-
+      
         /// <summary>
         /// check if user is admin
         /// </summary>
