@@ -43,7 +43,7 @@
                 </Merging>
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="mscriptable, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="mscriptable, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\mscriptable.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
@@ -83,7 +83,7 @@
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="RegistryCleanerCore, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="RegistryCleanerCore, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\RegistryCleanerCore.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
