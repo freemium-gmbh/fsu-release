@@ -108,7 +108,7 @@
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
     <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
 	    <PostBuildEvent>
-  xcopy "$(TargetDir)*.*" "$(SolutionDir)PCCleaner\bin\PCCleanerRelease\" /Y /E /I 
+  xcopy "$(TargetDir)*.*" "$(SolutionDir)PCCleaner\bin\PCCleanerDebug\" /Y /E /I 
 </PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PCCleanerRelease|AnyCPU'">

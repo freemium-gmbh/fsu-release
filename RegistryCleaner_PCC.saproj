@@ -40,7 +40,7 @@
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="VTRegScan, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\VTRegScan.dll">
+            <Assembly AssemblyName="VTRegScan, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\VTRegScan.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
@@ -192,7 +192,7 @@
                     <Obfuscation />
                 </Merging>
             </Assembly>
-            <Assembly AssemblyName="RegistryCleanerCore, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\RegistryCleanerCore.dll">
+            <Assembly AssemblyName="RegistryCleanerCore, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\RegistryCleanerCore.dll">
                 <Merging />
                 <Embedding />
             </Assembly>

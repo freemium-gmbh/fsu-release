@@ -43,35 +43,35 @@
                 </Merging>
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="mscriptable, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="mscriptable, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\mscriptable.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="Microsoft.Win32.TaskScheduler, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="Microsoft.Win32.TaskScheduler, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\Microsoft.Win32.TaskScheduler.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="System.Tuples, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="System.Tuples, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\System.Tuples.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="FreemiumUtilities.Infrastructure, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="FreemiumUtilities.Infrastructure, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\FreemiumUtilities.Infrastructure.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="WPFLocalizeExtension, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="WPFLocalizeExtension, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\WPFLocalizeExtension.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="FreemiumUtilities.ShortcutFixer, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="FreemiumUtilities.ShortcutFixer, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\FreemiumUtilities.ShortcutFixer.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="Interop.IWshRuntimeLibrary, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="Interop.IWshRuntimeLibrary, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\Interop.IWshRuntimeLibrary.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="FreemiumUtilities.TempCleaner, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="FreemiumUtilities.TempCleaner, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\FreemiumUtilities.TempCleaner.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
@@ -79,15 +79,15 @@
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="FreemiumUtilities.RegCleaner, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="FreemiumUtilities.RegCleaner, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\FreemiumUtilities.RegCleaner.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="RegistryCleanerCore, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="RegistryCleanerCore, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\RegistryCleanerCore.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="FreemiumUtilities.StartupManager, Culture=neutral, PublicKeyToken=null">
+            <Assembly AssemblyName="FreemiumUtilities.StartupManager, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\FreemiumUtilities.StartupManager.dll">
                 <Merging />
                 <Embedding />
             </Assembly>

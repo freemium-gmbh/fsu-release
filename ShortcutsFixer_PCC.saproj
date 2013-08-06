@@ -30,11 +30,11 @@
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="Interop.IWshRuntimeLibrary, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\Interop.IWshRuntimeLibrary.dll">
+            <Assembly AssemblyName="Interop.IWshRuntimeLibrary, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\Interop.IWshRuntimeLibrary.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
-            <Assembly AssemblyName="Interop.Shell32, Culture=neutral, PublicKeyToken=null" HintPath=".\FreemiumUtilities\bin\Release\Libraries\Interop.Shell32.dll">
+            <Assembly AssemblyName="Interop.Shell32, Culture=neutral, PublicKeyToken=null" HintPath=".\PCCleaner\bin\PCCleanerRelease\Libraries\Interop.Shell32.dll">
                 <Merging />
                 <Embedding />
             </Assembly>
