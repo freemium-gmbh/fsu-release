@@ -1,4 +1,9 @@
-﻿using System.Reflection;
+﻿// NOTE - PLEASE READ:
+// This file was renamed to "AssemblyInfoRenamed.cs" intentionally!
+// It makes sure that the version number stays at "2.0.0.0" and is not touched by the TeamCity AssemblyPatcher.
+// Please don't rename this file back to "AssemblyInfo.cs" till the whole project version was increased to version "2.0.0.0" or higher.
+
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
