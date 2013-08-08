@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("TracksEraser")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Covus Freemium GmbH")]
 [assembly: AssemblyProduct("TracksEraser")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("Copyright © Covus Freemium GmbH 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

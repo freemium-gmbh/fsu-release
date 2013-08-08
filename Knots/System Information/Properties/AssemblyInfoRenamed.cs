@@ -1,4 +1,9 @@
-﻿using System;
+﻿// NOTE - PLEASE READ:
+// This file was renamed to "AssemblyInfoRenamed.cs" intentionally!
+// It makes sure that the version number stays at "2.0.0.0" and is not touched by the TeamCity AssemblyPatcher.
+// Please don't rename this file back to "AssemblyInfo.cs" till the whole project version was increased to version "2.0.0.0" or higher.
+
+using System;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Security.Permissions;
@@ -11,9 +16,9 @@ using System.Security.Permissions;
 
 [assembly: AssemblyTitle("SystemInformation")]
 [assembly: AssemblyDescription("Computer System Information")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Covus Freemium GmbH")]
 [assembly: AssemblyProduct("SystemInformation")]
-[assembly: AssemblyCopyright("")]
+[assembly: AssemblyCopyright("Copyright © Covus Freemium GmbH 2013")]
 [assembly: AssemblyTrademark("")]
 
 [assembly: ComVisible(false)]
