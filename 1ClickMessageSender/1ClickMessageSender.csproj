@@ -63,7 +63,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-	<PostBuildEvent>xcopy "$(TargetDir)1Click.exe" "$(SolutionDir)FreemiumUtilities\$(OutDir)" /Y</PostBuildEvent>
+	<PostBuildEvent>xcopy "$(TargetDir)*.*" "$(SolutionDir)FreemiumUtilities\bin\Debug\" /Y /E /I</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -86,7 +86,9 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-	<PostBuildEvent>xcopy "$(TargetDir)1Click.exe" "$(SolutionDir)FreemiumUtilities\$(OutDir)" /Y</PostBuildEvent>
+	<PostBuildEvent>
+	xcopy "$(TargetDir)*.*" "$(SolutionDir)FreemiumUtilities\bin\Release\" /Y /E /I 
+	</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PCCleanerDebug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
