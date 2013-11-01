@@ -11,7 +11,7 @@ using System.Windows;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Freemium")]
 [assembly: AssemblyProduct("Freemium System Utilities")]
-[assembly: AssemblyCopyright("Copyright © Covus Freemium GmbH 2013")]
+[assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

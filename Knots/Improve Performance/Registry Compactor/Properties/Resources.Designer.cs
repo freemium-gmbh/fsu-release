@@ -310,15 +310,6 @@ namespace RegistryCompactor.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://freemium.com/free-computer-cleaner/faq/.
-        /// </summary>
-        public static string HelpUrl_PCCleaner {
-            get {
-                return ResourceManager.GetString("HelpUrl_PCCleaner", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Unable to open hive list... this can be a problem!.
         /// </summary>
         public static string HiveListError {

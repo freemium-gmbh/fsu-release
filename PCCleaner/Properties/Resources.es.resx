@@ -527,7 +527,7 @@ forma rápida y efectiva</value>
     <value>Cuadro de diálogo común de Microsoft: lista de archivos/carpetas</value>
   </data>
   <data name="FindEmptyFolders" xml:space="preserve">
-    <value>Buscar carpetas vacías con Free Computer Cleaner</value>
+    <value>Buscar carpetas vacías con System Utilities</value>
   </data>
   <data name="firefox" xml:space="preserve">
     <value>Mozilla Firefox</value>
@@ -1148,7 +1148,7 @@ forma rápida y efectiva</value>
     <value>Divide archivos grandes en otros más pequeños y permite unirlos de nuevo</value>
   </data>
   <data name="SplitWithFreemiumTools" xml:space="preserve">
-    <value>Dividir con Free Computer Cleaner</value>
+    <value>Dividir con System Utilities</value>
   </data>
   <data name="StartClearing" xml:space="preserve">
     <value>Iniciar limpieza</value>
@@ -1397,7 +1397,7 @@ forma rápida y efectiva</value>
     <value>Archivos temporales de Windows</value>
   </data>
   <data name="WipeWithFreemiumTools" xml:space="preserve">
-    <value>Eliminar con Free Computer Cleaner</value>
+    <value>Eliminar con System Utilities</value>
   </data>
   <data name="WouldYouLikeToCreateRestorePoint" xml:space="preserve">
     <value>¿Desea crear un punto de restauración del sistema antes de continuar? El proceso de restauración puede tardar varios minutos en completarse.</value>

@@ -152,15 +152,6 @@ namespace Uninstall_Manager {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to http://freemium.com/free-computer-cleaner/faq/.
-        /// </summary>
-        internal static string HelpUrl_PCCleaner {
-            get {
-                return ResourceManager.GetString("HelpUrl_PCCleaner", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to Image.
         /// </summary>
         internal static string image {

@@ -3,7 +3,6 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using System.Resources;
 using FreemiumUtil;
-using System.IO;
 
 namespace Uninstall_Manager
 {
@@ -59,10 +58,7 @@ namespace Uninstall_Manager
             try
             {
                 ResourceManager resourceManager = new ResourceManager("Uninstall_Manager.Resources", typeof(TopControl).Assembly);
-                if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
-                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl_PCCleaner"));
-                else
-                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));               
+                CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));                
             }
             catch (Exception)
             { }

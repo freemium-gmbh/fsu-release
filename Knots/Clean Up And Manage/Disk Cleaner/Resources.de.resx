@@ -238,10 +238,7 @@
     <value>Hilfe</value>
   </data>
   <data name="HelpUrl" xml:space="preserve">
-    <value>http://de.freemium.com/company/faq/</value>
-  </data>
-  <data name="HelpUrl_PCCleaner" xml:space="preserve">
-    <value>http://de.freemium.com/free-computer-cleaner/faq/</value>
+    <value>http://freemium.com/public/downloads/de/pdf/HandbuchFreemiumSystemUtilitiesDeutsch.pdf</value>
   </data>
   <data name="if_unsure" xml:space="preserve">
     <value>Wenn Sie bei diesen Optionen unsicher sind, belassen Sie sie auf den Standardeinstellungen</value>

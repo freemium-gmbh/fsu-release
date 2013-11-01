@@ -381,9 +381,6 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://freemium.com/company/faq/</value>
   </data>
-  <data name="HelpUrl_PCCleaner" xml:space="preserve">
-    <value>http://freemium.com/free-computer-cleaner/faq/</value>
-  </data>
   <data name="holiday_dow" xml:space="preserve">
     <value>DOW is greater than 6</value>
   </data>

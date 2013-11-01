@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("FreemiumUtilities.Spyware")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Covus Freemium GmbH")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("FreemiumUtilities.Spyware")]
-[assembly: AssemblyCopyright("Copyright © Covus Freemium GmbH 2013")]
+[assembly: AssemblyCopyright("Copyright ©  2011")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

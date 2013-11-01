@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreemiumUtilities.RegCleane
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knots.CleanUp.DiskCleaner", "Knots\Clean Up And Manage\Disk Cleaner\Knots.CleanUp.DiskCleaner.csproj", "{C0E8BAA1-FD36-493A-AB3B-6C4C42A2E066}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knots.Performance.StartupManager", "Knots\Improve Performance\Startup Manager\Knots.Performance.StartupManager.csproj", "{D70269D0-DC20-43D5-86D1-A87894523337}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knots.CleanUp.EmptyFolderFinder", "Knots\Clean Up And Manage\Empty Folder Finder\Knots.CleanUp.EmptyFolderFinder.csproj", "{1C87765E-1E49-4AA8-9DE4-56B7A8663438}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knots.Performance.RegistryCleaner", "Knots\Improve Performance\Registry Cleaner\Knots.Performance.RegistryCleaner.csproj", "{E9C048F5-8E21-4721-9B55-E6FF332B6C51}"
@@ -32,8 +34,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreemiumUtilities.ShortcutFixer", "FreemiumUtilities.ShortcutFixer\FreemiumUtilities.ShortcutFixer.csproj", "{0F910AD6-D904-454C-AF1D-441723CA3F6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Knots.SystemInformation", "Knots\System Information\Knots.SystemInformation.csproj", "{D21BFE21-20EB-48B8-BA66-9B7F639DFF95}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1ClickMessageSender", "1ClickMessageSender\1ClickMessageSender.csproj", "{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -268,18 +268,6 @@ Global
 		{D21BFE21-20EB-48B8-BA66-9B7F639DFF95}.PCCleanerRelease|Mixed Platforms.Build.0 = PCCleanerRelease|Any CPU
 		{D21BFE21-20EB-48B8-BA66-9B7F639DFF95}.PCCleanerRelease|x64.ActiveCfg = PCCleanerRelease|Any CPU
 		{D21BFE21-20EB-48B8-BA66-9B7F639DFF95}.PCCleanerRelease|x86.ActiveCfg = PCCleanerRelease|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerDebug|Any CPU.ActiveCfg = PCCleanerDebug|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerDebug|Any CPU.Build.0 = PCCleanerDebug|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerDebug|Mixed Platforms.ActiveCfg = PCCleanerDebug|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerDebug|Mixed Platforms.Build.0 = PCCleanerDebug|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerDebug|x64.ActiveCfg = PCCleanerDebug|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerDebug|x86.ActiveCfg = PCCleanerDebug|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerRelease|Any CPU.ActiveCfg = PCCleanerRelease|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerRelease|Any CPU.Build.0 = PCCleanerRelease|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerRelease|Mixed Platforms.ActiveCfg = PCCleanerRelease|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerRelease|Mixed Platforms.Build.0 = PCCleanerRelease|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerRelease|x64.ActiveCfg = PCCleanerRelease|Any CPU
-		{0E5F0D45-A3AE-4732-AB75-93DE36A9C4C7}.PCCleanerRelease|x86.ActiveCfg = PCCleanerRelease|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

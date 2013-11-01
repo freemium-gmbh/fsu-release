@@ -206,7 +206,7 @@ Tenez compte du fait que certains fichiers et certaines clés de la base de regi
     <value>Sélectionner</value>
   </data>
   <data name="CheckNETVersion" xml:space="preserve">
-    <value>Vous devez installer .NET Framework 3.5 SP1 pour pouvoir utiliser Free Computer Cleaner de Freemium.
+    <value>Vous devez installer .NET Framework 3.5 SP1 pour pouvoir utiliser les utilitaires système de Freemium.
 Cliquez sur « OK » pour ouvrir la page de téléchargement de .NET Framework 3.5 SP1.</value>
   </data>
   <data name="CheckNETVersionTitle" xml:space="preserve">
@@ -369,7 +369,7 @@ Cliquez sur « OK » pour ouvrir la page de téléchargement de .NET Framework
     <value>Jour</value>
   </data>
   <data name="DecryptWithFreemiumTools" xml:space="preserve">
-    <value>Décoder avec Free Computer Cleaner</value>
+    <value>Décoder avec les utilitaires système</value>
   </data>
   <data name="DeepScanTitle" xml:space="preserve">
     <value>Vérification exhaustive du système</value>
@@ -525,7 +525,7 @@ Cliquez sur « OK » pour ouvrir la page de téléchargement de .NET Framework
     <value>Boîte de dialogue générale Microsoft - Liste des fichiers/dossiers</value>
   </data>
   <data name="FindEmptyFolders" xml:space="preserve">
-    <value>Recherche de dossiers vides avec Free Computer Cleaner</value>
+    <value>Recherche de dossiers vides avec les utilitaires système</value>
   </data>
   <data name="firefox" xml:space="preserve">
     <value>Mozilla Firefox</value>
@@ -1146,7 +1146,7 @@ Cliquez sur « OK » pour ouvrir la page de téléchargement de .NET Framework
     <value>Segmente les fichiers volumineux en fichiers plus maniables et les assemble à nouveau.</value>
   </data>
   <data name="SplitWithFreemiumTools" xml:space="preserve">
-    <value>Segmenter avec Free Computer Cleaner</value>
+    <value>Segmenter avec les utilitaires système</value>
   </data>
   <data name="StartClearing" xml:space="preserve">
     <value>Lancer le nettoyage</value>
@@ -1395,7 +1395,7 @@ Cliquez sur « OK » pour ouvrir la page de téléchargement de .NET Framework
     <value>Windows - Fichiers temporaires</value>
   </data>
   <data name="WipeWithFreemiumTools" xml:space="preserve">
-    <value>Supprimer en toute sécurité avec Free Computer Cleaner</value>
+    <value>Supprimer en toute sécurité avec les utilitaires système</value>
   </data>
   <data name="WouldYouLikeToCreateRestorePoint" xml:space="preserve">
     <value>Souhaitez-vous créer un point de restauration système avant de continuer ? La restauration peut durer plusieurs minutes.</value>

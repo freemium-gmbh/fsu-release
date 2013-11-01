@@ -240,9 +240,6 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://fr.freemium.com/company/faq/</value>
   </data>
-  <data name="HelpUrl_PCCleaner" xml:space="preserve">
-    <value>http://fr.freemium.com/free-computer-cleaner/faq/</value>
-  </data>
   <data name="if_unsure" xml:space="preserve">
     <value>Si vous n’êtes pas sûr(e) de ces options, conservez la configuration par défaut.</value>
   </data>

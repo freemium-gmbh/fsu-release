@@ -10,9 +10,9 @@ using System.Windows;
 [assembly: AssemblyTitle("Knots.Performance.RegistryCompactor")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Covus Freemium GmbH")]
+[assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyProduct("Knots.Performance.RegistryCompactor")]
-[assembly: AssemblyCopyright("Copyright © Covus Freemium GmbH 2013")]
+[assembly: AssemblyCopyright("Copyright © Microsoft 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

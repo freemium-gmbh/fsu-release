@@ -1107,16 +1107,16 @@ nützliche Windows-Programme</value>
     <value>Feedback geben</value>
   </data>
   <data name="DecryptWithFreemiumTools" xml:space="preserve">
-    <value>entschlüsseln mit Free Computer Cleaner</value>
+    <value>entschlüsseln mit System Utilities</value>
   </data>
   <data name="FindEmptyFolders" xml:space="preserve">
-    <value>leere Ordner finden mit Free Computer Cleaner</value>
+    <value>leere Ordner finden mit System Utilities</value>
   </data>
   <data name="SplitWithFreemiumTools" xml:space="preserve">
-    <value>Datei teilen mit Free Computer Cleaner</value>
+    <value>Datei teilen mit System Utilities</value>
   </data>
   <data name="WipeWithFreemiumTools" xml:space="preserve">
-    <value>Sicher löschen mit Free Computer Cleaner</value>
+    <value>Sicher löschen mit System Utilities</value>
   </data>
   <data name="TimeFormat" xml:space="preserve">
     <value>HH:mm</value>

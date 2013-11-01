@@ -180,9 +180,6 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://pt.freemium.com/company/faq/</value>
   </data>
-  <data name="HelpUrl_PCCleaner" xml:space="preserve">
-    <value>http://pt.freemium.com/free-computer-cleaner/faq/</value>
-  </data>
   <data name="HiveListError" xml:space="preserve">
     <value>Impossível abrir lista do ramo do registo... pode ser um problema!</value>
   </data>

@@ -178,10 +178,7 @@
     <value>Ruta de carpeta</value>
   </data>
   <data name="HelpUrl" xml:space="preserve">
-    <value>http://es.freemium.com/company/faq/</value>
-  </data>
-  <data name="HelpUrl_PCCleaner" xml:space="preserve">
-    <value>http://es.freemium.com/free-computer-cleaner/faq/</value>
+    <value>http://pt.freemium.com/company/faq/</value>
   </data>
   <data name="ignore" xml:space="preserve">
     <value>Omitir</value>

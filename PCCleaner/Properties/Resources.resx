@@ -424,7 +424,7 @@ Press "OK" to go to the .NET Framework v3.5 SP1 download page.</value>
     <value>Protect your files from unauthorised access and use</value>
   </data>
   <data name="EncryptWithFreemiumTools" xml:space="preserve">
-    <value>Encrypt with Free Computer Cleaner</value>
+    <value>Encrypt with System Utilities</value>
   </data>
   <data name="EntryPointsTo" xml:space="preserve">
     <value>Entry points to</value>
@@ -1152,7 +1152,7 @@ and optionally stop them</value>
 managable parts and rejoin them</value>
   </data>
   <data name="SplitWithFreemiumTools" xml:space="preserve">
-    <value>Split with Free Computer Cleaner</value>
+    <value>Split with System Utilities</value>
   </data>
   <data name="StartClearing" xml:space="preserve">
     <value>Start Cleaning</value>
@@ -1401,7 +1401,7 @@ managable parts and rejoin them</value>
     <value>Windows Temporary Files</value>
   </data>
   <data name="WipeWithFreemiumTools" xml:space="preserve">
-    <value>Wipe with Free Computer Cleaner</value>
+    <value>Wipe with System Utilities</value>
   </data>
   <data name="WouldYouLikeToCreateRestorePoint" xml:space="preserve">
     <value>Would you like to create a System Restore Point before proceeding? The Restore process may take several minutes to complete.</value>

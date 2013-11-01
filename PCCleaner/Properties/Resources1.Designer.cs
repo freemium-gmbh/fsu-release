@@ -973,7 +973,7 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Encrypt with Free Computer Cleaner.
+        ///   Looks up a localized string similar to Encrypt with System Utilities.
         /// </summary>
         internal static string EncryptWithFreemiumTools {
             get {
@@ -3166,7 +3166,7 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Split with Free Computer Cleaner.
+        ///   Looks up a localized string similar to Split with System Utilities.
         /// </summary>
         internal static string SplitWithFreemiumTools {
             get {
@@ -3913,7 +3913,7 @@ namespace PCCleaner.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Wipe with Free Computer Cleaner.
+        ///   Looks up a localized string similar to Wipe with System Utilities.
         /// </summary>
         internal static string WipeWithFreemiumTools {
             get {

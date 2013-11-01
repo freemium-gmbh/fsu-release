@@ -3,7 +3,6 @@ using System.Diagnostics;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Windows.Forms;
-using System.IO;
 
 /// <summary>
 /// The <see cref="ClickMaint"/> namespace contains classes for the 1ClickMessageSender
@@ -52,18 +51,7 @@ namespace ClickMaint
             lblProcID.Text = string.Format("This process ID: {0}", Process.GetCurrentProcess().Id);
             try
             {
-                Process[] processes;
-
-                if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
-                {
-                    processes = Process.GetProcessesByName("PCCleaner");
-                }
-                else
-                {
-                    processes = Process.GetProcessesByName("FreemiumUtilities");
-                }
-
-                
+                Process[] processes = Process.GetProcessesByName("FreemiumUtilities");
 
                 string[] args = Environment.GetCommandLineArgs();
                 
@@ -74,25 +62,10 @@ namespace ClickMaint
                 }
                 else
                 {
-                    Process p;
-
-                    if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
-                    {
-                        p = new Process
-                        {
-                            StartInfo = { FileName = Environment.CurrentDirectory + "\\PCCleaner.exe" }
-                        };
-                    
-                    }
-                    else
-                    {
-                        p = new Process
-                        {
-                            StartInfo = { FileName = Environment.CurrentDirectory + "\\FreemiumUtilities.exe" }
-                        };
-                    
-                    }
-                   
+                    Process p = new Process
+                                {
+                                    StartInfo = { FileName = Environment.CurrentDirectory + "\\FreemiumUtilities.exe" }
+                                };
                     p.Start();
                    //Thread.Sleep(5000);
                     //while (FindWindowByCaption(IntPtr.Zero, "Free System Utilities") == IntPtr.Zero)

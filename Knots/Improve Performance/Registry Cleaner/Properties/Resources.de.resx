@@ -176,10 +176,7 @@
     <value>Hilfedateien</value>
   </data>
   <data name="HelpUrl" xml:space="preserve">
-    <value>http://de.freemium.com/company/faq/</value>
-  </data>
-  <data name="HelpUrl_PCCleaner" xml:space="preserve">
-    <value>http://de.freemium.com/free-computer-cleaner/faq/</value>
+    <value>http://freemium.com/public/downloads/de/pdf/HandbuchFreemiumSystemUtilitiesDeutsch.pdf</value>
   </data>
   <data name="HistoryScanTitle" xml:space="preserve">
     <value>Verlauf &amp; Startmenü</value>

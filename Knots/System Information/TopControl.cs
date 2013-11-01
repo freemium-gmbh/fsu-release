@@ -4,7 +4,6 @@ using System.Windows.Forms;
 using SystemInformation.Properties;
 using System.Resources;
 using FreemiumUtil;
-using System.IO;
 
 namespace SystemInformation
 {
@@ -60,10 +59,7 @@ namespace SystemInformation
             try
             {
                 ResourceManager resourceManager = new ResourceManager("SystemInformation.Resources", typeof(TopControl).Assembly);
-                if (!File.Exists(System.IO.Directory.GetCurrentDirectory() + "\\FreemiumUtilities.exe"))
-                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl_PCCleaner"));
-                else
-                    CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
+                CommonOperations.OpenUrl(resourceManager.GetString("HelpUrl"));
             }
             catch (Exception)
             { }

@@ -45,7 +45,7 @@
 						       Margin="80,0,0,0" HorizontalAlignment="Left" Stretch="Fill" />
 						<TextBlock Style="{StaticResource FunctionalButtonTitle}" Padding="0 0 0 5" Text="Free Computer Cleaner"
 						           HorizontalAlignment="Center" />
-                        <TextBlock Name="VersionText" Style="{StaticResource FunctionalButtonText}" Text="Version " HorizontalAlignment="Center" />
+						<TextBlock Style="{StaticResource FunctionalButtonText}" Text="Version 1.0.0" HorizontalAlignment="Center" />
 						<Button Style="{StaticResource TransparentButton}" Margin="10,5,0,5" Click="GoToSite" Panel.ZIndex="100"
 						        HorizontalAlignment="Left" Content="{lex:LocText PCCleaner:Resources:RootUrl}"></Button>
 						<TextBlock Style="{StaticResource FunctionalButtonText}" Text="© 2011-2013 Covus Freemium GmbH"

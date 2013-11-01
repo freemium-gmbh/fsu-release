@@ -180,9 +180,6 @@
   <data name="HelpUrl" xml:space="preserve">
     <value>http://fr.freemium.com/company/faq/</value>
   </data>
-  <data name="HelpUrl_PCCleaner" xml:space="preserve">
-    <value>http://fr.freemium.com/free-computer-cleaner/faq/</value>
-  </data>
   <data name="HiveListError" xml:space="preserve">
     <value>La liste de structure n’a pas pu être ouverte. Cela peut provoquer des problèmes !</value>
   </data>

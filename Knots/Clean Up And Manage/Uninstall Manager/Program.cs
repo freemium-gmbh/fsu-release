@@ -26,7 +26,11 @@ namespace Uninstall_Manager
             mutex = new Mutex(true, Process.GetCurrentProcess().ProcessName, out created);
             if (created)
             {
-                 // As all first run initialization is done in the main project,
+                //  AppDomain.CurrentDomain.UnhandledException += new UnhandledExceptionEventHandler(CurrentDomain_UnhandledException);
+                // Application.SetUnhandledExceptionMode(UnhandledExceptionMode.CatchException);
+                // Application.ThreadException += new System.Threading.ThreadExceptionEventHandler(Application_ThreadException);
+
+                // As all first run initialization is done in the main project,
                 // we need to make sure the user does not start a different knot first.
                 if (CfgFile.Get("FirstRun") != "0")
                 {
@@ -54,6 +58,16 @@ namespace Uninstall_Manager
                 Application.SetCompatibleTextRenderingDefault(false);
                 Application.Run(new UninstallManager());
             }
+        }
+
+        static void Application_ThreadException(object sender, ThreadExceptionEventArgs e)
+        {
+            Process.GetCurrentProcess().Kill();
+        }
+
+        static void CurrentDomain_UnhandledException(object sender, UnhandledExceptionEventArgs e)
+        {
+            Process.GetCurrentProcess().Kill();
         }
     }
 }

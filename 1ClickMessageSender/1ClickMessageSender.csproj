@@ -63,7 +63,6 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-	<PostBuildEvent>xcopy "$(TargetDir)*.*" "$(SolutionDir)FreemiumUtilities\bin\Debug\" /Y /E /I</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <OutputPath>bin\Release\</OutputPath>
@@ -86,9 +85,6 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
     <UseVSHostingProcess>false</UseVSHostingProcess>
-	<PostBuildEvent>
-	xcopy "$(TargetDir)*.*" "$(SolutionDir)FreemiumUtilities\bin\Release\" /Y /E /I 
-	</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PCCleanerDebug|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -109,9 +105,6 @@
     <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
     <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
-	    <PostBuildEvent>
-  xcopy "$(TargetDir)*.*" "$(SolutionDir)PCCleaner\bin\PCCleanerDebug\" /Y /E /I 
-</PostBuildEvent>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'PCCleanerRelease|AnyCPU'">
     <DebugSymbols>true</DebugSymbols>
@@ -132,9 +125,6 @@
     <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
     <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
     <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
-	    <PostBuildEvent>
-  xcopy "$(TargetDir)*.*" "$(SolutionDir)PCCleaner\bin\PCCleanerRelease\" /Y /E /I 
-</PostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System">
@@ -179,4 +169,8 @@
     <None Include="app.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent>xcopy "$(TargetDir)1Click.exe" "$(SolutionDir)FreemiumUtilities\$(OutDir)" /Y</PostBuildEvent>
+  </PropertyGroup>
 </Project>

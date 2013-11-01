@@ -370,7 +370,7 @@ Prima "OK" para ir para a página de transferência do .NET Framework v3.5 SP1."
     <value>Dia</value>
   </data>
   <data name="DecryptWithFreemiumTools" xml:space="preserve">
-    <value>Desencriptar com o Free Computer Cleaner</value>
+    <value>Desencriptar com o System Utilities</value>
   </data>
   <data name="DeepScanTitle" xml:space="preserve">
     <value>Análise Completa do Sistema</value>
@@ -529,7 +529,7 @@ de forma rápida e eficaz</value>
     <value>Caixa de Diálogo Comum da Microsoft - Lista de Ficheiros/Pastas</value>
   </data>
   <data name="FindEmptyFolders" xml:space="preserve">
-    <value>Localizar Pastas Vazias com o Free Computer Cleaner</value>
+    <value>Localizar Pastas Vazias com o System Utilities</value>
   </data>
   <data name="firefox" xml:space="preserve">
     <value>Mozilla Firefox</value>
@@ -1152,7 +1152,7 @@ e interrompê-los opcionalmente</value>
 e juntá-las novamente</value>
   </data>
   <data name="SplitWithFreemiumTools" xml:space="preserve">
-    <value>Dividir com o Free Computer Cleaner</value>
+    <value>Dividir com o System Utilities</value>
   </data>
   <data name="StartClearing" xml:space="preserve">
     <value>Iniciar Limpeza</value>
@@ -1401,7 +1401,7 @@ e juntá-las novamente</value>
     <value>Ficheiros Temporários do Windows</value>
   </data>
   <data name="WipeWithFreemiumTools" xml:space="preserve">
-    <value>Limpar com o Free Computer Cleaner</value>
+    <value>Limpar com o System Utilities</value>
   </data>
   <data name="WouldYouLikeToCreateRestorePoint" xml:space="preserve">
     <value>Pretende criar um Ponto de Restauro do Sistema antes de continuar? Este processo de Restauro pode demorar alguns minutos a terminar.</value>
