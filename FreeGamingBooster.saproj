@@ -20,8 +20,25 @@
                     <ResourcesCompression />
                     <MemberRefsProxy />
                     <Pruning />
-                    <Obfuscation />
-                    <ControlFlow />
+                    <Obfuscation Obfuscate="1">
+                        <Exclusion>
+                            <Token Table="WholeType">
+                                <Assembly>FreeGamingBooster</Assembly>
+                                <Module>FreeGamingBooster.exe</Module>
+                                <ItemType>Class</ItemType>
+                                <Namespace>FreeGamingBooster.Properties</Namespace>
+                                <Name>Resources</Name>
+                            </Token>
+                            <Token Table="WholeType">
+                                <Assembly>FreeGamingBooster</Assembly>
+                                <Module>FreeGamingBooster.exe</Module>
+                                <ItemType>Enum</ItemType>
+                                <Namespace>FreeGamingBooster.Models</Namespace>
+                                <Name>OneClickAppStatus</Name>
+                            </Token>
+                        </Exclusion>
+                    </Obfuscation>
+                    <ControlFlow Obfuscate="1" ObfuscationLevel="4" />
                 </Merging>
             </Assembly>
             <Assembly AssemblyName="mscriptable, Culture=neutral, PublicKeyToken=null">
