@@ -151,27 +151,7 @@ namespace FreeGamingBooster
         /// </summary>
         static void FirstRun()
         {
-            // ANALYSE
-            SetContextMenuRegistryKey(Registry.CurrentUser, @"Software\Classes\Drive\shell\FreemiumAnalyze\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("AnalyzeWithFreemiumTools"), "ANALYSE");
-            SetContextMenuRegistryKey(Registry.ClassesRoot, @"Drive\shell\FreemiumAnalyze\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("AnalyzeWithFreemiumTools"), "ANALYSE");
-            SetContextMenuRegistryKey(Registry.CurrentUser, @"Software\Classes\Directory\shell\FreemiumAnalyze\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("AnalyzeWithFreemiumTools"), "ANALYSE");
-            SetContextMenuRegistryKey(Registry.ClassesRoot, @"Directory\shell\FreemiumAnalyze\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("AnalyzeWithFreemiumTools"), "ANALYSE");
-            CfgFile.Set("ShowContextMenuAnalyze", "1");
-
-            // EMPTYFOLDERS
-            SetContextMenuRegistryKey(Registry.CurrentUser, @"Software\Classes\Drive\shell\FreemiumFindEmptyFolders\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("FindEmptyFolders"), "EMPTYFOLDERS");
-            SetContextMenuRegistryKey(Registry.ClassesRoot, @"Drive\shell\FreemiumFindEmptyFolders\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("FindEmptyFolders"), "EMPTYFOLDERS");
-            SetContextMenuRegistryKey(Registry.CurrentUser, @"Software\Classes\Directory\shell\FreemiumFindEmptyFolders\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("FindEmptyFolders"), "EMPTYFOLDERS");
-            SetContextMenuRegistryKey(Registry.ClassesRoot, @"Directory\shell\FreemiumFindEmptyFolders\",
-                                      WPFLocalizeExtensionHelpers.GetUIString("FindEmptyFolders"), "EMPTYFOLDERS");
-            CfgFile.Set("ShowContextMenuFindEmptyFolders", "1");
+            // Nothing to do for this product here (no context menues).
         }
 
         /// <summary>
